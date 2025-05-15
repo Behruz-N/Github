@@ -23,7 +23,9 @@ ul li{
     line-height: 28px;
     letter-spacing: 0%;
     vertical-align: middle;
-    color: #0A2640;
+    color: #0A2640 ;
+    text-decoration: none;
+    list-style: none;
 }
 .boxs1_h1{
     text-align: center;
