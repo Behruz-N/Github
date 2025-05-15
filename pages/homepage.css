@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #1d1d1f;
+    line-height: 1.6;
+    padding: 0 5%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0a1f38;
+  }
+  
+  .nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0a1f38;
+    font-weight: 500;
+  }
+  
+  .login-btn {
+    padding: 0.6rem 1.4rem;
+    border: 2px solid #0a1f38;
+    border-radius: 999px;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    max-width: 550px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-primary {
+    padding: 0.8rem 1.5rem;
+    background-color: #0a1f38;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-outline {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #0a1f38;
+    border-radius: 999px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0a1f38;
+  }
+  
+  .hero-images img {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  
+  .img-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .brands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 4rem;
+    font-weight: bold;
+    color: #0a1f38;
+  }
+  .middle_ages{
+    background-color: rgba(10, 38, 64, 1);
+    color: white;
+
+  }
+  .ages{
+    display: flex;
+    /* margin-top: 30px; */
+    padding: 60px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ages h1{
+    font-size: 48px;
+    width: 842px;
+    height: 144px;
+    text-align: center;
+  }
+  .middle_ages_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    gap: 50px;
+    
+  }
+  .middle_ages_card p i{
+    color: white;
+    margin-left:10px ;
+  }
+  .p{
+    margin-top: 20px;
+    height: 2px;
+    width: 320px;
+    background-color: white;
+  }
+  .middle_ages_card{
+    margin-bottom: 50px;
+  }
